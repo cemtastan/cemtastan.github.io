@@ -24,8 +24,8 @@ a {
 
 
 .navigation {
-    height: 15px;
-    margin: 5px 5px 0 25px;
+    /* height: 15px; */
+    margin: 15px 5px 50px 400px; 
 
     padding: 5px 5px 25px 25px;
     justify-content: flex-start;
@@ -38,22 +38,55 @@ a {
 
 .navigation> ul >li {
     float: left;
-    margin-left: 10px;
+    margin-left: 75px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center ;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    background: linear-gradient(0deg, rgba(196, 236, 14, 1) 39%, rgb(5, 172, 75) 61%);
+    /* align-items: center; */
+    width: 30px;
+    height: 10px;
+    border-radius: 50px;
+    /* background: linear-gradient(0deg, rgba(196, 236, 14, 1) 39%, rgb(5, 172, 75) 61%); */
 
 }
 
-.navigation > ul > li > a{
-        color: black ;
-        font-family: 'Oswald', sans-serif;
-        font-weight: 400;
+
+.menu{
+    background:image("https://img-s1.onedio.com/id-58383dd45101e8b81026547c/rev-0/w-719/s-0077dd1042897523ed4e7606c43c919d17df26ba.jpg");
+    padding: 5px 5px 5px 15px;
+    margin: 50px 0 0 150px ;
 }
+.menu ul{
+	list-style-type: none;  /* listenin önündeki işareti kaldırır. */
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li{
+	 float: left;   /*	liste elemanlarını yanyana getirir. */
+}
+.clean{
+    clear: both;
+}
+.menu ul li a{
+    display: block;
+    line-height: 30px;
+    border: 1px solid #fff;
+    background: #4b5d64;
+    padding: 10px 25px;
+    text-decoration: none;   /* alt çizgiyi kaldırır. */
+    font-weight: bold;
+    margin-right: 5px;
+    color: white; 
+}
+.menu ul li a:hover{
+    color:#000;
+    border: 1px solid #000;
+    background: #d6edc8; 
+}
+
+
+
+
 
 .top-content{
     margin: 0 25px 25px 25px;
@@ -123,6 +156,14 @@ a {
 }
 
 
+.navigation > ul > li > a{
+
+    width: 30px ;
+    height: 30px; 
+    /* color: black ; */
+    /* font-family: 'Oswald', sans-serif; */ 
+   /* font-weight: 400; */
+}
 
 
 
